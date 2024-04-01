@@ -83,3 +83,9 @@ print("Inorder traversal of the BST after deleting 3:", end=" ")
 binaryST.delete(3)
 inorder_traversal(binaryST.root)
 
+'''
+Output:
+Inorder traversal of the BST: 2 3 4 5 6 7 8 
+Searching for the key 3: True
+Inorder traversal of the BST after deleting 3: 2 4 5 6 7 8
+'''
